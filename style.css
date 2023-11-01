@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0;
+    gap:20px;
+    
+    
+}
+
+.box{
+    border: 1px solid black;
+    height: 60%;
+    border-radius: 50px;
+    flex: .05;
+    height: 80%;
+}
+
+h2{
+    display: none;
+}
+
+.top-nav{
+    display: block;
+}
+.first{
+    min-width: 50%;
+    background-image: url(Assets/Mount-Dora-Sign.webp);
+    
+    background-size: 100% 100% ;   
+    flex: 1;
+}
+
+.second{
+    background-image: url(Assets/Downtown_Mt_Dora_during_sunset.jpg);
+
+}
+
+.third{
+    background-image: url(Assets/Festival.jpg);
+}
+
+.forth{
+    background-image: url(Assets/Mountain_biking.jpg);
+}
+
+.fifth{
+    background-image: url(Assets/Graduation\ image.webp);
+}
+
