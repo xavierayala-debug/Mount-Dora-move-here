@@ -4,55 +4,31 @@
 
 body{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+   
     height: 100vh;
-    padding: 10px;
     overflow: hidden;
-    margin: 0;
-    gap:20px;
-    
-    
+    margin: 0%;
 }
-
-.box{
-    border: 1px solid black;
-    height: 60%;
+.container{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+   
+}
+.panels{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    height: 80vh;
+    position: relative;
+    margin: 10px;
     border-radius: 50px;
-    flex: .05;
-    height: 80%;
+    flex: .05
 }
 
-h2{
-    display: none;
-}
-
-.top-nav{
-    display: block;
-}
-.first{
-    min-width: 50%;
-    background-image: url(Assets/Mount-Dora-Sign.webp);
-    
-    background-size: 100% 100% ;   
-    flex: 1;
-}
-
-.second{
-    background-image: url(Assets/Downtown_Mt_Dora_during_sunset.jpg);
-
-}
-
-.third{
-    background-image: url(Assets/Festival.jpg);
-}
-
-.forth{
-    background-image: url(Assets/Mountain_biking.jpg);
-}
-
-.fifth{
-    background-image: url(Assets/Graduation\ image.webp);
+.panels.active{
+    flex:1;
 }
 
